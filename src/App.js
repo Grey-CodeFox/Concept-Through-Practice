@@ -25,7 +25,7 @@ function App() {
       setPeople([...people, newData])
       setNames('')
       setAges('')
-    } else alert('Please Enter Name and Age')
+    } else alert('Please Enter Both Name and Age')
   }
   return (
     <main>

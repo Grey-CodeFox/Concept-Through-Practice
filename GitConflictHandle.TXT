@@ -1,3 +1,0 @@
-
-some Text that handled the conflict now
-

@@ -17,18 +17,24 @@ function App() {
   }
 
   const submitHandler = () => {
-    const newData = { id: people.length + 1, name: names, age: ages }
+    if (ages <= 0) {
+      alert('Please enter age greater than 0')
+    } else if (names && ages) {
+      const newData = { id: people.length + 1, name: names, age: ages }
 
-    setPeople([...people, newData])
-    setNames('')
-    setAges()
+      setPeople([...people, newData])
+      setNames('')
+      setAges('')
+    } else alert('Please Enter Name and Age')
   }
   return (
     <main>
       <section className="container">
         <h3>{people.length} Birthday's Today</h3>
+
         <List people={people} />
-        <button onClick={clickHandler}>Clear</button>
+
+        <button onClick={clickHandler}>Clear All</button>
       </section>
       <section className="container">
         <h3>Enter New Member</h3>

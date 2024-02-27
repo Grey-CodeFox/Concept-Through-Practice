@@ -37,7 +37,7 @@ function App() {
         <button onClick={clickHandler}>Clear All</button>
       </section>
       <section className="container">
-        <h3>Enter New Member</h3>
+        <h3>Register New Member</h3>
         <label htmlFor="name">Name : </label>
         <input
           type="text"

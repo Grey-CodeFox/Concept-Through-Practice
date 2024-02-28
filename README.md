@@ -1,3 +1,4 @@
 # Concept-Through-Practice
-# A Birthday List Maker 
-# Functions : ADD MEMBERS - CLEAR ALL MEMBERS
+ A Birthday List Maker - (USESTATE)
+ # Functions
+ ADD MEMBERS - CLEAR ALL MEMBERS
